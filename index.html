@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+
+    <title>Conversor</title>
+</head>
+
+<body>
+    <h1>Conversor de Temperatura</h1>
+    <div id="interface">
+        <h2>Sistema de Conversão de Temperatura</h2>
+        <div id="res"></div>
+        <div id="form">
+            <label id="lab" for="temperture">Escolha o Sistema:</label>
+            <select id="temp" onchange="converter()">
+                <option value="celTofahr">Celsius/Fahrenheit</option>
+                <option value="celTokel">Celsius/Kelvin</option>
+                <option value="fahrTocel">Fahrenheit/Celsius</option>
+                <option value="fahrTokel">Fahrenheit/Kelvin</option>
+                <option value="kelTocel">Kelvin/Celsius</option>
+                <option value="kelTofahr">Kelvin/Fahrenheit</option>
+                </select>
+            <input type="namber" class="button1" id="temperatura">
+            <input type="button" class="button2" value="Converter" onclick="converter()">
+            <br/>
+            <br/>
+            <br>
+        </div>
+    </div>
+    <script type="text/javascript" src="app.js "></script>
+    <script type="text/javascript" src="front.js "></script>
+</body>
+
+</html>

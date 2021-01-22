@@ -1,0 +1,77 @@
+    body {
+        background-color: #ffe4c4;
+    }
+    
+    div#interface {
+        background-color: firebrick;
+        width: 650px;
+        height: 430px;
+        margin: 10px auto 10px auto;
+        border-radius: 5px;
+        border: 3px solid black;
+    }
+    
+    h1 {
+        color: #ff7f50;
+        font-size: 50px;
+        text-align: center;
+    }
+    
+    h2 {
+        color: darkgoldenrod;
+        font-size: 35px;
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    label#lab {
+        color: white;
+        font-size: 20px;
+        padding-left: 10px;
+    }
+    
+    select#temp {
+        background-color: #9ff8e9;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 5px;
+        text-align: center;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+        margin-top: 60px;
+    }
+    
+    .button1 {
+        background-color: #9ff8e9;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 5px;
+        text-align: center;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    
+    .button2 {
+        background-color: #9ff8e9;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 5px;
+        text-align: center;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    
+    div#res {
+        color: white;
+        font-size: 35px;
+        padding-left: 10px;
+        margin-top: 50px;
+        text-align: center;
+    }
+    
+    div#form {
+        margin: 0px auto 0px auto;
+    }
